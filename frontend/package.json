@@ -8,11 +8,15 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
     "mapbox-gl": "^2.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-in-viewport": "^1.0.0-alpha.20",
     "react-map-gl": "^6.1.17",
     "react-scripts": "^4.0.3",
+    "timeago.js": "^4.0.0-beta.3",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
@@ -38,5 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:8800/api/"
 }
